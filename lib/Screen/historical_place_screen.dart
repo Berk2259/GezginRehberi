@@ -6,11 +6,22 @@ class HistoricalPlaceScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue.shade300,
+      backgroundColor: Colors.blue.shade900,
       appBar: AppBar(
         centerTitle: true,
         title: Text('Gezilecek Yerler', style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.blue.shade900,
+      ),
+      body: Container(
+        width: double.infinity,
+        height: MediaQuery.of(context).size.height,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(25),
+            topRight: Radius.circular(25),
+          ),
+          color: Colors.blue.shade300,
+        ),
       ),
     );
   }

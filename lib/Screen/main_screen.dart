@@ -20,9 +20,10 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       body: _pages[_page],
       bottomNavigationBar: CurvedNavigationBar(
-        backgroundColor: Colors.blue.shade300,
+        backgroundColor: Colors.transparent,
         color: Colors.blue.shade900,
         height: 60,
         animationDuration: Duration(milliseconds: 300),
