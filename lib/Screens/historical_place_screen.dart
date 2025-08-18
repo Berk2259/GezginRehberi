@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gezgin_rehberi/Model/model.dart';
+import 'package:gezgin_rehberi/Widgets/widget.dart';
 
 class HistoricalPlaceScreen extends StatelessWidget {
   const HistoricalPlaceScreen({super.key});
@@ -21,6 +23,24 @@ class HistoricalPlaceScreen extends StatelessWidget {
             topRight: Radius.circular(25),
           ),
           color: Colors.blue.shade300,
+        ),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Türkiye',
+                  image: 'assets/images/turkey.png',
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Fransa',
+                  image: 'assets/images/france.png',
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

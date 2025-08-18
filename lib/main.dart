@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gezgin_rehberi/Screen/screen.dart';
+import 'package:gezgin_rehberi/Screens/screen.dart';
 
 void main() {
   runApp(const MyApp());

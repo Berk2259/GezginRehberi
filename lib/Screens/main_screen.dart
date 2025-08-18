@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:gezgin_rehberi/Screen/information_screen.dart';
-import 'package:gezgin_rehberi/Screen/screen.dart';
+import 'package:gezgin_rehberi/Screens/information_screen.dart';
+import 'package:gezgin_rehberi/Screens/screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
