@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:gezgin_rehberi/Model/historical_detail_model_baslik.dart';
+import 'package:gezgin_rehberi/Model/historical_detail_model.dart';
 
 class HistoricalScreenDetail extends StatelessWidget {
-  final HistoricalDetailModelBaslik ozellik;
+  final HistoricalDetailModel ozellik;
   HistoricalScreenDetail({super.key, required this.ozellik});
 
   @override

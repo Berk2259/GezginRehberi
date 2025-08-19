@@ -32,12 +32,14 @@ class HistoricalPlaceScreen extends StatelessWidget {
                   ulke: 'Türkiye',
                   image: 'assets/images/turkey.png',
                 ),
+                index: 0,
               ),
               UlkelerWidget(
                 ozellik: UlkelerModel(
                   ulke: 'Fransa',
                   image: 'assets/images/france.png',
                 ),
+                index: 1,
               ),
             ],
           ),

@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:gezgin_rehberi/Detail/historical_screen_detail.dart';
-import 'package:gezgin_rehberi/Model/historical_detail_model_baslik.dart';
+import 'package:gezgin_rehberi/Data/data.dart';
+import 'package:gezgin_rehberi/Detail/detail.dart';
 import 'package:gezgin_rehberi/Model/model.dart';
 
 class UlkelerWidget extends StatelessWidget {
   UlkelerModel ozellik;
-  UlkelerWidget({super.key, required this.ozellik});
+  final int index;
+  UlkelerWidget({super.key, required this.ozellik, required this.index});
 
+  var historical = HistroicalData.historical;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -50,11 +52,7 @@ class UlkelerWidget extends StatelessWidget {
                       MaterialPageRoute(
                         builder:
                             (context) => HistoricalScreenDetail(
-                              ozellik: HistoricalDetailModelBaslik(
-                                title:
-                                    ozellik
-                                        .ulke, // Burada direkt ülke adını title yap
-                              ),
+                              ozellik: historical[index],
                             ),
                       ),
                     );
