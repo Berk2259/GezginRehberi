@@ -1,4 +1,5 @@
 class HistoricalDetailModel {
   final String title;
-  HistoricalDetailModel({required this.title});
+  final List<String>? il;
+  HistoricalDetailModel({required this.title, this.il});
 }
