@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezgin_rehberi/Detail/historical_screen_detail.dart';
+import 'package:gezgin_rehberi/Model/historical_detail_model_baslik.dart';
 import 'package:gezgin_rehberi/Model/model.dart';
 
 class UlkelerWidget extends StatelessWidget {
@@ -42,7 +44,21 @@ class UlkelerWidget extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 20.0),
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder:
+                            (context) => HistoricalScreenDetail(
+                              ozellik: HistoricalDetailModelBaslik(
+                                title:
+                                    ozellik
+                                        .ulke, // Burada direkt ülke adını title yap
+                              ),
+                            ),
+                      ),
+                    );
+                  },
                   icon: Icon(FontAwesomeIcons.circleArrowRight),
                 ),
               ),
