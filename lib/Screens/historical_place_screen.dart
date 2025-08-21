@@ -93,13 +93,6 @@ class HistoricalPlaceScreen extends StatelessWidget {
               ),
               UlkelerWidget(
                 ozellik: UlkelerModel(
-                  ulke: 'Macaristan',
-                  image: 'assets/images/hungary.png',
-                  page: HungaryDetail(),
-                ),
-              ),
-              UlkelerWidget(
-                ozellik: UlkelerModel(
                   ulke: 'İspanya',
                   image: 'assets/images/spain.png',
                   page: SpainDetail(),
@@ -117,6 +110,34 @@ class HistoricalPlaceScreen extends StatelessWidget {
                   ulke: 'İngiltere',
                   image: 'assets/images/england.png',
                   page: EnglandDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Polonya',
+                  image: 'assets/images/poland.png',
+                  page: PolandDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Yunanistan',
+                  image: 'assets/images/greece.png',
+                  page: GreeceDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Bulgaristan',
+                  image: 'assets/images/bulgaria.png',
+                  page: BulgariaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Sırbistan',
+                  image: 'assets/images/serbia.png',
+                  page: SerbiaDetail(),
                 ),
               ),
               SizedBox(height: 100),
