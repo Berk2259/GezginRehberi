@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gezgin_rehberi/Details/france_detail.dart';
+import 'package:gezgin_rehberi/Details/turkey_detail.dart';
 import 'package:gezgin_rehberi/Model/model.dart';
 import 'package:gezgin_rehberi/Widgets/widget.dart';
 
@@ -31,6 +33,7 @@ class HistoricalPlaceScreen extends StatelessWidget {
                 ozellik: UlkelerModel(
                   ulke: 'Türkiye',
                   image: 'assets/images/turkey.png',
+                  page: TurkeyDetail(),
                 ),
                 index: 0,
               ),
@@ -38,6 +41,7 @@ class HistoricalPlaceScreen extends StatelessWidget {
                 ozellik: UlkelerModel(
                   ulke: 'Fransa',
                   image: 'assets/images/france.png',
+                  page: FranceDetail(),
                 ),
                 index: 1,
               ),
