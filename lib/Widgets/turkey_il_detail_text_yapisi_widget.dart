@@ -19,7 +19,7 @@ class TurkeyIlTextYapisiWidget extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.only(left: 16.0, right: 16.0),
           child: Text(ozellik.aciklama, style: TextStyle(fontSize: 14)),
         ),
       ],
