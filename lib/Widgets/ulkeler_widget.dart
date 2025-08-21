@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezgin_rehberi/Details/france_detail.dart';
+import 'package:gezgin_rehberi/Details/turkey_detail.dart';
 import 'package:gezgin_rehberi/Model/model.dart';
 
 class UlkelerWidget extends StatelessWidget {
   UlkelerModel ozellik;
   UlkelerWidget({super.key, required this.ozellik});
-
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -42,7 +43,12 @@ class UlkelerWidget extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 20.0),
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ozellik.page),
+                    );
+                  },
                   icon: Icon(FontAwesomeIcons.circleArrowRight),
                 ),
               ),
