@@ -56,5 +56,15 @@ class TurkeyIlDetailData {
         '• Perre ve Kahta çevresinde çok sayıda kaya mezarı ve antik ev kalıntısı görülür.',
       ],
     ),
+    TurkeyIlDetailModel(
+      baslikData: 'Afyon',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Ağrı',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
   ];
 }
