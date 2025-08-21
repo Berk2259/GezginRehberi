@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gezgin_rehberi/Model/turkey_il_detail_model.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezgin_rehberi/Model/model.dart';
+import 'package:gezgin_rehberi/Widgets/widget.dart';
 
 class TurkeyIlDetail extends StatelessWidget {
   TurkeyIlDetailModel ozellik;
@@ -12,7 +14,7 @@ class TurkeyIlDetail extends StatelessWidget {
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: Colors.blue.shade900,
-        title: Text(ozellik.baslik, style: TextStyle(color: Colors.white)),
+        title: Text(ozellik.baslikData, style: TextStyle(color: Colors.white)),
         centerTitle: true,
       ),
       body: Container(
@@ -27,15 +29,71 @@ class TurkeyIlDetail extends StatelessWidget {
         ),
         child: Column(
           children: [
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Container(
+                width: double.infinity,
+                height: 100,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(25),
+                  color: Colors.white,
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 16.0),
+                  child: Row(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(25),
+                          color: Colors.blue.shade900,
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Icon(
+                            FontAwesomeIcons.fire,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 16.0),
+                        child: Text(
+                          'Gezilecek Yerler',
+                          style: TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.only(
+                  bottom: 16.0,
+                  left: 16.0,
+                  right: 16.0,
+                ),
                 child: Container(
                   width: double.infinity,
                   height: MediaQuery.of(context).size.height,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(25),
                     color: Colors.white,
+                  ),
+                  child: ListView.builder(
+                    itemCount: ozellik.mekanData.length,
+                    itemBuilder: (context, index) {
+                      return TurkeyIlTextYapisiWidget(
+                        ozellik: TurkeyIlDetailTextYapisiModel(
+                          mekan: ozellik.mekanData[index],
+                          aciklama: ozellik.aciklamaData[index],
+                        ),
+                      );
+                    },
                   ),
                 ),
               ),
