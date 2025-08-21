@@ -1,3 +1,10 @@
 export 'france_detail.dart';
 export 'turkey_detail.dart';
 export 'turkey_il_detail.dart';
+export 'austuria_detail.dart';
+export 'belgium_detail.dart';
+export 'italy_detail.dart';
+export 'hungary_detail.dart';
+export 'germany_detail.dart';
+export 'netherlands_detail.dart';
+export 'slovakia_detail.dart';

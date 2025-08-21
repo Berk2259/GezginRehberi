@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gezgin_rehberi/Details/france_detail.dart';
-import 'package:gezgin_rehberi/Details/turkey_detail.dart';
+import 'package:gezgin_rehberi/Details/detail.dart';
 import 'package:gezgin_rehberi/Model/model.dart';
 import 'package:gezgin_rehberi/Widgets/widget.dart';
 
@@ -43,6 +42,56 @@ class HistoricalPlaceScreen extends StatelessWidget {
                   page: FranceDetail(),
                 ),
               ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'İtalya',
+                  image: 'assets/images/italy.png',
+                  page: ItalyDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Almanya',
+                  image: 'assets/images/germany.png',
+                  page: GermanyDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Belçika',
+                  image: 'assets/images/belgium.png',
+                  page: BelgiumDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Hollanda',
+                  image: 'assets/images/netherlands.png',
+                  page: NetherlandsDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Avusturya',
+                  image: 'assets/images/austuria.png',
+                  page: AusturiaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Slovakya',
+                  image: 'assets/images/slovakia.png',
+                  page: SlovakiaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Macaristan',
+                  image: 'assets/images/hungary.png',
+                  page: HungaryDetail(),
+                ),
+              ),
+              SizedBox(height: 100),
             ],
           ),
         ),
