@@ -91,6 +91,34 @@ class HistoricalPlaceScreen extends StatelessWidget {
                   page: HungaryDetail(),
                 ),
               ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Macaristan',
+                  image: 'assets/images/hungary.png',
+                  page: HungaryDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'İspanya',
+                  image: 'assets/images/spain.png',
+                  page: SpainDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Portekiz',
+                  image: 'assets/images/portugal.png',
+                  page: PortugalDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'İngiltere',
+                  image: 'assets/images/england.png',
+                  page: EnglandDetail(),
+                ),
+              ),
               SizedBox(height: 100),
             ],
           ),

@@ -8,3 +8,6 @@ export 'hungary_detail.dart';
 export 'germany_detail.dart';
 export 'netherlands_detail.dart';
 export 'slovakia_detail.dart';
+export 'spain_detail.dart';
+export 'portugal_detail.dart';
+export 'england_detail.dart';
