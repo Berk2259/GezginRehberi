@@ -66,5 +66,382 @@ class TurkeyIlDetailData {
       mekanData: [''],
       aciklamaData: [''],
     ),
+    TurkeyIlDetailModel(
+      baslikData: 'Amasya',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Ankara',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Antalya',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Artvin',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Aydın',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Balıkesir',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Bilecik',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Bingöl',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Bitlis',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Bolu',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Burdur',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Bursa',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Çanakkale',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Çankırı',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Çorum',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Denizli',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Diyarbakır',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Edirne',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Elazığ',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Erzincan',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Erzurum',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Eskişehir',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Gaziantep',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Giresun',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Gümüşhane',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Hakkari',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Hatay',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Isparta',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Mersin',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'İstanbul',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'İzmir',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kars',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kastamonu',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kayseri',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kırklareli',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kırşehir',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kocaeli',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Konya',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kütahya',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Malatya',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Manisa',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kahramanmaraş',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Mardin',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Muğla',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(baslikData: 'Muş', mekanData: [''], aciklamaData: ['']),
+    TurkeyIlDetailModel(
+      baslikData: 'Nevşehir',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Niğde',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Ordu',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Rize',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Sakarya',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Samsun',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Siirt',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Sinop',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Sivas',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Tekirdağ',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Tokat',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Trabzon',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Tunceli',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Şanlıurfa',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Uşak',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(baslikData: 'Van', mekanData: [''], aciklamaData: ['']),
+    TurkeyIlDetailModel(
+      baslikData: 'Yozgat',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Zonguldak',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Aksaray',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Bayburt',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Karaman',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kırıkkale',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Batman',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Şırnak',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Bartın',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Ardahan',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'ğdır',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Yalova',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Karabük',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Kilis',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Osmaniye',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
+    TurkeyIlDetailModel(
+      baslikData: 'Düzce',
+      mekanData: [''],
+      aciklamaData: [''],
+    ),
   ];
 }
