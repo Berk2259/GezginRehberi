@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gezgin_rehberi/Model/model.dart';
 import 'package:gezgin_rehberi/Widgets/widget.dart';
 
 class TurkeyDetail extends StatelessWidget {
@@ -26,8 +27,14 @@ class TurkeyDetail extends StatelessWidget {
         ),
         child: Column(
           children: [
-            TurkeyContainerWidget(number: '01', title: 'Adana'),
-            TurkeyContainerWidget(number: '02', title: 'Adıyaman'),
+            TurkeyContainerWidget(
+              ozellik: TurkeyContainerModel(number: '01', title: 'Adana'),
+              index: 0,
+            ),
+            TurkeyContainerWidget(
+              ozellik: TurkeyContainerModel(number: '02', title: 'Adıyaman'),
+              index: 1,
+            ),
           ],
         ),
       ),

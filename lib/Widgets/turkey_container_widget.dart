@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezgin_rehberi/Data/turkey_il_detail_data.dart';
+import 'package:gezgin_rehberi/Details/detail.dart';
+import 'package:gezgin_rehberi/Model/model.dart';
 
 class TurkeyContainerWidget extends StatelessWidget {
-  final String number;
-  final String title;
-  const TurkeyContainerWidget({
+  TurkeyContainerModel ozellik;
+  final int index;
+  TurkeyContainerWidget({
     super.key,
-    required this.number,
-    required this.title,
+    required this.ozellik,
+    required this.index,
   });
-
+  var items = TurkeyIlDetailData.items;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -33,7 +36,7 @@ class TurkeyContainerWidget extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Text(
-                    number,
+                    ozellik.number,
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -44,14 +47,22 @@ class TurkeyContainerWidget extends StatelessWidget {
               ),
               SizedBox(width: 16.0),
               Text(
-                title,
+                ozellik.title,
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               Spacer(),
               Padding(
                 padding: const EdgeInsets.only(right: 16.0),
                 child: IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder:
+                            (context) => TurkeyIlDetail(ozellik: items[index]),
+                      ),
+                    );
+                  },
                   icon: Icon(FontAwesomeIcons.circleArrowRight),
                 ),
               ),
