@@ -35,7 +35,6 @@ class HistoricalPlaceScreen extends StatelessWidget {
                   image: 'assets/images/turkey.png',
                   page: TurkeyDetail(),
                 ),
-                index: 0,
               ),
               UlkelerWidget(
                 ozellik: UlkelerModel(
@@ -43,7 +42,6 @@ class HistoricalPlaceScreen extends StatelessWidget {
                   image: 'assets/images/france.png',
                   page: FranceDetail(),
                 ),
-                index: 1,
               ),
             ],
           ),
