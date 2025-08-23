@@ -140,6 +140,97 @@ class HistoricalPlaceScreen extends StatelessWidget {
                   page: SerbiaDetail(),
                 ),
               ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Kuzey Makedonya',
+                  image: 'assets/images/north-macedonia.png',
+                  page: NorthMacedoniaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Hırvatistan',
+                  image: 'assets/images/croatia.png',
+                  page: CroatiaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Romanya',
+                  image: 'assets/images/romania.png',
+                  page: RomaniaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Norveç',
+                  image: 'assets/images/norway.png',
+                  page: NorwayDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Finlandiya',
+                  image: 'assets/images/finland.png',
+                  page: FinlandDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'İsveç',
+                  image: 'assets/images/sweden.png',
+                  page: SwedenDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'İsviçre',
+                  image: 'assets/images/switzerland.png',
+                  page: SwitzerlandDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Çek Cumhuriyeti',
+                  image: 'assets/images/czech-republic.png',
+                  page: CzechRepublicDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Slovenya',
+                  image: 'assets/images/slovania.png',
+                  page: SlovaniaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Arnavutluk',
+                  image: 'assets/images/albania.png',
+                  page: AlbaniaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Karadağ',
+                  image: 'assets/images/montenegro.png',
+                  page: MontenegroDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Bosna Hersek',
+                  image: 'assets/images/bosna.png',
+                  page: BosnaDetail(),
+                ),
+              ),
+              UlkelerWidget(
+                ozellik: UlkelerModel(
+                  ulke: 'Danimarka',
+                  image: 'assets/images/denmark.png',
+                  page: DenmarkDetail(),
+                ),
+              ),
               SizedBox(height: 100),
             ],
           ),
