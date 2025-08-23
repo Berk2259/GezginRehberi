@@ -79,18 +79,49 @@ class TurkeyIlDetail extends StatelessWidget {
                 ),
                 child: Container(
                   width: double.infinity,
-                  height: MediaQuery.of(context).size.height,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(25),
                     color: Colors.white,
                   ),
                   child: ListView.builder(
+                    padding: EdgeInsets.only(bottom: 16),
                     itemCount: ozellik.mekanData.length,
                     itemBuilder: (context, index) {
-                      return TurkeyIlTextYapisiWidget(
-                        ozellik: TurkeyIlDetailTextYapisiModel(
-                          mekan: ozellik.mekanData[index],
-                          aciklama: ozellik.aciklamaData[index],
+                      return Padding(
+                        padding: const EdgeInsets.only(
+                          top: 16.0,
+                          left: 16.0,
+                          right: 16.0,
+                        ),
+                        child: Container(
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(25),
+                            color: Colors.blue.shade300,
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              TurkeyIlTextYapisiWidget(
+                                ozellik: TurkeyIlDetailTextYapisiModel(
+                                  mekan: ozellik.mekanData[index],
+                                  aciklama: ozellik.aciklamaData[index],
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  left: 16.0,
+                                  bottom: 16.0,
+                                ),
+                                child: ElevatedButton.icon(
+                                  onPressed: () {},
+                                  label: Text('Konum'),
+                                  icon: Icon(FontAwesomeIcons.locationDot),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       );
                     },
