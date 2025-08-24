@@ -24,11 +24,31 @@ class FranceDetail extends StatelessWidget {
           ),
           color: Colors.blue.shade300,
         ),
-        child: Column(
-          children: [
-            FranceContainerWidget(title: 'Paris'),
-            FranceContainerWidget(title: 'Lille'),
-          ],
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.only(bottom: 16.0),
+            child: Column(
+              children: [
+                FranceContainerWidget(title: 'Paris'),
+                FranceContainerWidget(title: 'Lille'),
+                FranceContainerWidget(title: 'Lyon'),
+                FranceContainerWidget(title: 'Dijon'),
+                FranceContainerWidget(title: 'Rennes'),
+                FranceContainerWidget(title: 'Ajaccio'),
+                FranceContainerWidget(title: 'Strasbourg'),
+                FranceContainerWidget(title: 'Rouen'),
+                FranceContainerWidget(title: 'Bordeaux'),
+                FranceContainerWidget(title: 'Toulouse'),
+                FranceContainerWidget(title: 'Nantes'),
+                FranceContainerWidget(title: 'Marseille'),
+                FranceContainerWidget(title: 'Basse-Terre'),
+                FranceContainerWidget(title: 'Cayenne'),
+                FranceContainerWidget(title: 'Saint-Denis'),
+                FranceContainerWidget(title: 'Fort-de-France'),
+                FranceContainerWidget(title: 'Mamoudzou'),
+              ],
+            ),
+          ),
         ),
       ),
     );
