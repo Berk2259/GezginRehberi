@@ -36,12 +36,35 @@ class TurkeyIlContainerYapisiWidget extends StatelessWidget {
           child: Text(ozellik.aciklama, style: TextStyle(fontSize: 14)),
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 16.0, bottom: 16.0),
-          child: ElevatedButton.icon(
-            onPressed: _openGoogleMaps,
-
-            label: Text('Konum'),
-            icon: Icon(FontAwesomeIcons.locationDot),
+          padding: const EdgeInsets.only(left: 16.0, bottom: 16.0, right: 16.0),
+          child: Row(
+            children: [
+              Expanded(
+                child: ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                    iconColor: Colors.white,
+                    backgroundColor: Colors.blue.shade900,
+                    foregroundColor: Colors.white,
+                  ),
+                  onPressed: _openGoogleMaps,
+                  label: Text('Konum'),
+                  icon: Icon(FontAwesomeIcons.locationDot),
+                ),
+              ),
+              SizedBox(width: 16.0),
+              Expanded(
+                child: ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                    iconColor: Colors.white,
+                    backgroundColor: Colors.blue.shade900,
+                    foregroundColor: Colors.white,
+                  ),
+                  onPressed: () {},
+                  label: Text('Detay'),
+                  icon: Icon(FontAwesomeIcons.circleInfo),
+                ),
+              ),
+            ],
           ),
         ),
       ],
