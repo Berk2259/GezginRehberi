@@ -99,28 +99,13 @@ class TurkeyIlDetail extends StatelessWidget {
                             borderRadius: BorderRadius.circular(25),
                             color: Colors.blue.shade300,
                           ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              TurkeyIlTextYapisiWidget(
-                                ozellik: TurkeyIlDetailTextYapisiModel(
-                                  mekan: ozellik.mekanData[index],
-                                  aciklama: ozellik.aciklamaData[index],
-                                ),
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.only(
-                                  left: 16.0,
-                                  bottom: 16.0,
-                                ),
-                                child: ElevatedButton.icon(
-                                  onPressed: () {},
-                                  label: Text('Konum'),
-                                  icon: Icon(FontAwesomeIcons.locationDot),
-                                ),
-                              ),
-                            ],
+                          child: TurkeyIlContainerYapisiWidget(
+                            ozellik: TurkeyIlDetailContainerYapisiModel(
+                              mekan: ozellik.mekanData[index],
+                              aciklama: ozellik.aciklamaData[index],
+                              latitude: ozellik.enlem[index],
+                              longitude: ozellik.boylam[index],
+                            ),
                           ),
                         ),
                       );
