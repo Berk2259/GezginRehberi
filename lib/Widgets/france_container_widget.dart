@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:gezgin_rehberi/Model/ulke_il_container_model.dart';
 
 class FranceContainerWidget extends StatelessWidget {
-  final String title;
-  const FranceContainerWidget({super.key, required this.title});
+  UlkeIlContainerModel ozellik;
+  FranceContainerWidget({super.key, required this.ozellik});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +22,7 @@ class FranceContainerWidget extends StatelessWidget {
           child: Row(
             children: [
               Text(
-                title,
+                ozellik.title,
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               Spacer(),

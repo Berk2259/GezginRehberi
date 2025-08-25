@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:gezgin_rehberi/Details/france_detail.dart';
-import 'package:gezgin_rehberi/Details/turkey_detail.dart';
 import 'package:gezgin_rehberi/Model/model.dart';
 
 class UlkelerWidget extends StatelessWidget {
   UlkelerModel ozellik;
-  UlkelerWidget({super.key, required this.ozellik});
+  final int index;
+  UlkelerWidget({super.key, required this.ozellik, required this.index});
   @override
   Widget build(BuildContext context) {
     return Padding(
